@@ -13,7 +13,7 @@ public final class ToDoList {
     public boolean appRunning = true;
     private File file = new File(System.getProperty("user.home")+"\\IdeaProjects\\ToDoListTMS\\src\\com\\tms\\todo\\list\\resources", "tasks.txt");
 
-    public void addTask(Task task){
+    private void addTask(Task task){
         arrayList.add(task);
     }
     public ToDoList(){
