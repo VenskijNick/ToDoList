@@ -11,7 +11,7 @@ import java.util.Optional;
 public final class ToDoList {
     private ArrayList<Task> arrayList = new ArrayList<>();
     public boolean appRunning = true;
-    private File file = new File(System.getProperty("user.home")+"\\IdeaProjects\\ToDoListTMS\\src\\com\\tms\\todo\\list\\resources", "todoList.txt");
+    private File file = new File(System.getProperty("user.home")+"\\IdeaProjects\\ToDoListTMS\\src\\com\\tms\\todo\\list\\resources", "tasks.txt");
 
     public void addTask(Task task){
         arrayList.add(task);
